@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: left center;
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 64px;
+    margin: 0;
+
+}
+header h3{
+    font-size: 74;
+    text-align:center;
+    color: #10e996a4;
+}
+header img {
+    max-width: 250px;
+    border-radius: 50%;
+    margin-top: -250px;
+    float: right;
+    margin-right: 150px;
+}
+
+section {
+    background-color: #0f85e6a4;
+    margin: 20px;
+    padding: 100px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+section h2 {
+    font-size:60;
+    margin-top: 100px;
+text-align: right;
+}
+section h4{
+    font-size:60;
+    margin-top: 100px;
+text-align: left;
+
+
+}
+
+section img {
+    max-width: 500px;
+    float: left ;
+    margin-left: 30px;
+    margin-top: -150px;
+
+}
+p {
+    font-size: 30px;
+    clear:left both;
+    text-align: right;
+}
+.paragrafo {
+    text-align: left;
+    font-size: 30px;
+}
+#contato {
+    margin-top: -140px;
+    max-width: 400px;
+    float: right;
+    margin-right: 40px;
+    clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+    shape-outside: polygon(0% 0%, 100% 50%, 0% 100%);
+}
+#sobre {
+    max-width: 200px;
+    transform: skew(-20deg);
+    float: left;
+    margin-right: 20px;
+}
